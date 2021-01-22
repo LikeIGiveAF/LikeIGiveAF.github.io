@@ -1,9 +1,10 @@
 html,
 body {
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+
   /* background-color: #454545; */
 
   /* font-family: 'Indie Flower', cursive;
@@ -13,19 +14,22 @@ body {
     font-family: 'Satisfy', cursive;
     font-family: 'Yellowtail', cursive; */
 }
+body {
+  background: url(./Images/AUni-Sign-BG.png);
+}
 
 .brand-logo {
   font-family: "Indie Flower", cursive;
   font-weight: 300;
   margin: 0;
-  color: #457070;
+  color: white;
   /* font-family: 'Montserrat', sans-serif;
 font-family: 'Satisfy', cursive; */
 }
 
 .navigation-section {
   padding: 1% 1%;
-  background-color: #ffd571;
+  background-color: black;
 }
 
 .nav-brand:link {
@@ -54,19 +58,19 @@ font-family: 'Satisfy', cursive; */
 }
 
 .link-color {
-  color: #457070;
-}
-
-.link-color:hover {
   color: white;
 }
 
+.link-color:hover {
+  color: #ec6d93;
+}
+
 /* Nav Header Amar */
-#nav_signup{
+#nav_signup {
   padding: 8px 8px;
 }
 
-#footer_index{
+#footer_index {
   padding: 10px 10px;
 }
 /* Content section*/
@@ -75,7 +79,6 @@ font-family: 'Satisfy', cursive; */
   background-image: url("../Images/AUni-Sign-BG.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-
 }
 
 .content-section .small-box {
@@ -168,9 +171,15 @@ font-family: 'Satisfy', cursive; */
 .container {
   width: 75%;
   padding: 50px;
-  background-color: #ade498;
+  background-color: #f5f4f4;
   margin: 30px auto;
   box-shadow: 1px 1px 10px 10px #454545;
+}
+.containers {
+  width: 75%;
+  padding: 50px;
+  /* background-color: #f5f4f4; */
+  margin: 30px auto;
 }
 
 /* home content text */
@@ -184,16 +193,29 @@ font-family: 'Satisfy', cursive; */
   font-size: 2.3rem;
 }
 
+.intro-video {
+  /* margin: auto; */
+  position: relative;
+  left: 130px;
+  border-radius: 12px;
+  width: 75%;
+  height: 500px;
+}
+
 /* body content section */
 .body-content-section {
-  background-color: #457070;
+  background-color: #daded4;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   padding: 1px;
 }
 
 .carousel-text {
-  color: blue;
+  color: rgb(233, 90, 157);
   text-shadow: 1px 1px, black, -1px -1px black;
+}
+
+.car-img {
+  border-radius: 12px;
 }
 
 /* About Us */
@@ -341,12 +363,27 @@ font-family: 'Satisfy', cursive; */
   text-decoration: none;
 }
 
+/* UP button */
+.gotobtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: black;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
 /* Footer Section */
 .footer-section {
   padding: 2% 1%;
-  background-color: #ffd571;
+  background-color: black;
   text-align: center;
-  color: #457070;
+  color: white;
 }
 
 .footer-section div p {
@@ -372,6 +409,5 @@ font-family: 'Satisfy', cursive; */
   color: #454545;
 }
 
-body{
-  
+body {
 }

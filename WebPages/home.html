@@ -21,6 +21,11 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../CSS/Styles.css" />
     <!-- Bootstrap JavaScript -->
+    <!-- Up-button -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -79,7 +84,7 @@
     </header>
     <!-- Home Container -->
     <div class="body-content-section">
-      <div class="container intro-body-home">
+      <div class="containers intro-body-home">
         <h2>What is Anime?</h2>
         <p>
           The word anime — pronounced "ah-knee-may" — is an abbreviation of the
@@ -87,6 +92,15 @@
           However, outside of Japan, it has become the catch-all term for
           animation from Japan.
         </p>
+        <br />
+
+        <iframe
+          class="intro-video"
+          src="https://www.youtube.com/embed/vAxonyJjZtU"
+        >
+        </iframe>
+        <br />
+        <br />
         <p>
           For decades, anime was produced by and for Japan — a local product,
           with a distinct look-and-feel to not just the artwork but the
@@ -179,7 +193,7 @@
             <div class="carousel-item active">
               <img
                 src="../Images/osamu.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Osamu Tezuka"
                 style="height: 600px"
                 onclick="authorFunc1()"
@@ -192,7 +206,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/oda.png"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Eiichiro Oda"
                 style="height: 600px"
                 onclick="authorFunc2()"
@@ -205,7 +219,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/akira.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Akira-Toriyama"
                 style="height: 600px"
                 onclick="authorFunc3()"
@@ -218,7 +232,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/kishimoto.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Masashi Kishimoto"
                 style="height: 600px"
                 onclick="authorFunc4()"
@@ -231,7 +245,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/yusuke.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Yukuse Murata"
                 style="height: 600px"
                 onclick="authorFunc5()"
@@ -244,7 +258,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/hiromu.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Hiromu Arakawa"
                 style="height: 600px"
                 onclick="authorFunc6()"
@@ -320,7 +334,7 @@
             <div class="carousel-item active">
               <img
                 src="../Images/Prince of Tennis.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Osamu Tezuka"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -338,7 +352,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/Gintama.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Eiichiro Oda"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -357,7 +371,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/Eureka Seven.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Akira-Toriyama"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -375,7 +389,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/Amrita no Kyōen.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Masashi Kishimoto"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -389,7 +403,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/Sailor Moon 2.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Yukuse Murata"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -407,7 +421,7 @@
             <div class="carousel-item">
               <img
                 src="../Images/Detective Conan Movie 24.jpg"
-                class="d-block w-100"
+                class="d-block w-100 car-img"
                 alt="Hiromu Arakawa"
                 style="height: 600px"
                 onclick="pageChange()"
@@ -445,7 +459,7 @@
       </div>
 
       <!-- About us -->
-      <div id="about-us" class="container about-section">
+      <div id="about-us" class="containers about-section">
         <h2>About Us</h2>
         <div class="members-row">
           <img
@@ -474,7 +488,7 @@
       </div>
 
       <!-- Contact Us -->
-      <div id="contact-us" class="container contact-section row">
+      <div id="contact-us" class="containers contact-section row">
         <div class="foura col-lg-6">
           <h2 class="fourcontitle">Hari Prasad S</h2>
           <div class="linkbox1">
@@ -518,6 +532,8 @@
         </div>
       </div>
     </div>
+
+    <a class="gotobtn" href="#"> <i class="fas fa-arrow-up"></i></a>
 
     <footer class="footer-section">
       <div>
